@@ -328,7 +328,8 @@ export class A2AServer {
       "Content-Type": "text/event-stream",
       "Cache-Control": "no-cache",
       Connection: "keep-alive",
-      // Optional: "Access-Control-Allow-Origin": "*" // Handled by cors middleware usually
+      //Optional: 
+      "Access-Control-Allow-Origin": "*" // Handled by cors middleware usually
     });
     // Function to send SSE data
     const sendEvent = (eventData: schema.JSONRPCResponse) => {

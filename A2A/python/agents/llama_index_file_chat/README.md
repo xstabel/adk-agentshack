@@ -61,7 +61,7 @@ sequenceDiagram
 1. Navigate to the samples directory:
 
    ```bash
-   cd samples/python/agents/llama_index_file_chat
+   cd python/agents/llama_index_file_chat
    ```
 
 2. Create an environment file with your API keys:
@@ -81,10 +81,10 @@ sequenceDiagram
    uv run . --host 0.0.0.0 --port 8080
    ```
 
-4. In a separate terminal, run an A2A [client](/samples/python/hosts/README.md):
+4. In a separate terminal, run an A2A [client](/python/hosts/README.md):
 
    ```bash
-   cd samples/python/hosts/cli
+   cd python/hosts/cli
    uv run . --agent http://localhost:10010
    ```
 

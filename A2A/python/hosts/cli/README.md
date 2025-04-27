@@ -14,7 +14,7 @@ The client will use streaming if the server supports it.
 
 1. Navigate to the CLI sample directory:
     ```bash
-    cd samples/python/hosts/cli
+    cd python/hosts/cli
     ```
 2. Run the example client
     ```

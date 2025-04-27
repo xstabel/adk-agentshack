@@ -50,7 +50,7 @@ sequenceDiagram
 1. **Navigate to the samples directory**:
 
 ```bash
-cd samples/python/agents/semantickernel
+cd python/agents/semantickernel
 ```
 
 2. **Create an environment file (.env) with your API key and the model ID (e.g., "gpt-4.1"):**:
@@ -73,7 +73,7 @@ source .venv/bin/activate
 
 Choose one of the following options:
 
-> Make sure you run `uv run .` from the following directory: `samples/python/agents/semantickernel`
+> Make sure you run `uv run .` from the following directory: `python/agents/semantickernel`
 
 ```bash
 # Basic run on default port 10020
@@ -88,10 +88,10 @@ uv run . --host 0.0.0.0 --port 8080
 
 5. **In a separate terminal, run the A2A client:
 
-> Make sure you run `uv run .` from the following directory: `samples/python/hosts/cli`
+> Make sure you run `uv run .` from the following directory: `python/hosts/cli`
 
 ```bash
-cd samples/python/hosts/cli
+cd python/hosts/cli
 uv run . --agent http://localhost:10020
 ```
 

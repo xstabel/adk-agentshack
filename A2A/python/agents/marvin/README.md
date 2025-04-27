@@ -23,7 +23,7 @@ The agent receives text, attempts to extract contact details (name, email, phone
 
 1.  Navigate to the Python samples directory:
     ```bash
-    cd samples/python/agents/marvin
+    cd python/agents/marvin
     ```
 
 2.  Set an LLM provider API key:
@@ -52,7 +52,7 @@ The agent receives text, attempts to extract contact details (name, email, phone
 5.  In a separate terminal, run an A2A client (e.g., the sample CLI):
     ```bash
     # Ensure the environment is active (source .venv/bin/activate)
-    cd samples/python/hosts/cli
+    cd python/hosts/cli
     uv run . --agent http://localhost:10030 # Use the correct agent URL/port
     ```
 

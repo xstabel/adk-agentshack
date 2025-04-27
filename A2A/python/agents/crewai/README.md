@@ -40,7 +40,7 @@ sequenceDiagram
 1. Navigate to the samples directory:
 
    ```bash
-   cd samples/python/agents/crewai
+   cd python/agents/crewai
    ```
 
 2. Create an environment file with your API key:
@@ -71,7 +71,7 @@ sequenceDiagram
 
    ```bash
    # Connect to the agent (specify the agent URL with correct port)
-   cd samples/python/hosts/cli   
+   cd python/hosts/cli   
    uv run . --agent http://localhost:10001
    
    # If you changed the port when starting the agent, use that port instead

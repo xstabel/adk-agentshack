@@ -30,7 +30,7 @@ import asyncio
 import threading
 from common.types import Artifact, Message, Task, Part
 
-server_url = "http://localhost:12000"
+server_url = "http://localhost:8081"
 
 async def ListConversations() -> list[Conversation]:
   client = ConversationClient(server_url)
